@@ -1,0 +1,103 @@
+#horta{
+    display: block; 
+    float: left; /* Faz a imagem flutuar para a esquerda */
+    margin-right: 30px; /* Margem à direita para separar a imagem da lista */
+    width: 40%; /tamanho da imagem/
+    }
+.header{
+height: 200px; /* Altura desejada para o seu cabeçalho */
+position: relative; /* Define a posição do elemento pai para permitir posicionamento absoluto*/
+}
+
+.header img {
+    width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
+    height: 10%; /* Define a altura da imagem como 100% em relação à altura do cabeçalho /
+    position: absolute; /* Posiciona a imagem de forma absoluta dentro do cabeçalho / top: 0; / Alinha a parte superior da imagem com a parte superior do cabeçalho */
+    left: 0; /* Alinha a parte esquerda da imagem com a parte esquerda do cabeçalho */
+    object-fit: cover; /* Ajusta o tamanho da imagem para cobrir completamente o espaço disponível*/
+    }
+ul {
+margin: 10px;
+ padding: 30px;
+}
+body{
+    color: #ffffff;
+}
+.container{ display: flex; 
+    margin-top: 10px;
+}
+#horta{
+display: flex;
+justify-content: space-around; /* Espaço ao redor dos itens */
+width: 30%; /* Defina a largura desejada para o container */
+background-color: #bd0000;
+padding: 20px; /* Espaço interno do container / border: 2px solid #000; / Estilo da borda do container */
+border-radius: 10px; /* Bordas arredondadas */
+height: 8%;
+margin-left: 0px;
+object-fit: cover; /* A imagem cobre todo o container mantendo a proporção */
+}
+.titulo1{
+color: rgba(255, 255, 255, 0.788);
+font-size: 20px;
+margin: 20px;
+}
+footer { text-align: center; 
+background-color: #bd0000; 
+padding: 100px ;
+}
+#banner1{
+display: block;
+float: left;
+margin-right: 30%;
+width: 30%;
+}
+#banner2{
+display: block;
+float: left;
+margin-right: 30%;
+width: 30%;
+}
+
+#banner3{
+display: block;
+float: left;
+margin-right: 30%;
+ width: 30%;
+ 
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
